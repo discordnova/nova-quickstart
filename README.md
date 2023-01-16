@@ -25,7 +25,7 @@ example file in the directory for more information.
 ### Starting the Bot
 
 You need to install Nova.
-For simplicity we will use the [`all-on-one`](https://github.com/discordnova/Nova/tree/main/exes/all)
+For simplicity we will use the [`all-in-one`](https://github.com/discordnova/Nova/tree/main/internal/pkg/all-in-one)
 distribution, which provides a single binary. 
 This is usesul in development environments.
 Place the binary inside the [`bin`](bin/) directory, under the name `nova`.
