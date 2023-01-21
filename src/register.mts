@@ -1,7 +1,7 @@
 import "source-map-support";
 import { REST } from "@discordjs/rest";
-import { commands } from "./commands";
-import { registerCommands } from "./sys/handler";
+import { commands } from "./commands/index.mjs";
+import { registerCommands } from "./handler/index.mjs";
 import { RESTGetAPIUserResult, Routes } from "discord-api-types/v10";
 
 const rest = new REST({

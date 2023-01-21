@@ -7,7 +7,7 @@ import {
   APIUser,
   MessageFlags,
 } from "discord-api-types/v10";
-import { CommandBuilder, type HandlerFn } from "../sys/handler";
+import { CommandBuilder, type HandlerFn } from "../handler/index.mjs";
 
 type Messages = {
   low: [];

@@ -5,8 +5,9 @@ import {
 	ApplicationCommandType,
 	InteractionResponseType,
 } from 'discord-api-types/v10';
-import {promise} from 'ping';
-import {CommandBuilder, type HandlerFn} from '../sys/handler';
+import * as pkg from 'ping';
+const { promise } = pkg
+import {CommandBuilder, type HandlerFn} from '../handler/index.mjs';
 
 type Messages = {
 	latencyMessage: [number];
