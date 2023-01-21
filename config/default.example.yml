@@ -1,23 +1,22 @@
 gateway:
-  token: <token>
+  token: <your token here!>
   intents: 3276799
   shard: 0
   shard_total: 1
 
 rest:
   discord:
-    token: <token>
+    token: <your token here!>
   server:
-    port: 8090
-    address: 0.0.0.0
+    listening_adress: 0.0.0.0:8090
+  ratelimiter_address: ratelimit
+  ratelimiter_port: 8092
 
 webhook:
   discord:
-    public_key: <public key>
-    client_id: <user id>
+    public_key: <your public key here!>
   server:
-    port: 8091
-    address: 0.0.0.0
+    listening_adress: 0.0.0.0:8091
 
 cache:
   toggles:
@@ -37,6 +36,8 @@ cache:
     - voice_states_cache
 
 ratelimiter:
+  server:
+    listening_adress: 0.0.0.0:8092
 
 # Prometheus monitoring configuration
 monitoring:

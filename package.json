@@ -25,7 +25,8 @@
     "lint": "xo",
     "lint:fix": "xo --fix",
     "start": "tsc && node dist/index.mjs",
-    "register": "tsc && node dist/register.mjs"
+    "register": "tsc && node dist/register.mjs",
+    "nova": "nova"
   },
   "xo": {
     "rules": {
