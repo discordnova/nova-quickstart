@@ -5,7 +5,7 @@ import {
 	ApplicationCommandType,
 	InteractionResponseType,
 } from 'discord-api-types/v10';
-import * as pkg from 'ping';
+import pkg from 'ping';
 const { promise } = pkg
 import {CommandBuilder, type HandlerFn} from '../handler/index.mjs';
 
